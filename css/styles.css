@@ -6,7 +6,6 @@
 .navbar-nav
 {
     border-bottom: 1px solid black;
-    position: relative;
 }
 .navbar-nav .nav-item {
     border-right: 1px dotted grey;
@@ -22,3 +21,5 @@
     font-size: 16px;
     text-align: center;
 }
+
+
