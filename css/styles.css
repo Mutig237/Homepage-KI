@@ -1,0 +1,25 @@
+﻿body
+{
+    font-family: Verdana;
+}
+
+.navbar-nav
+{
+    border-bottom: 1px solid black;
+}
+.navbar-nav .nav-item {
+    border-right: 1px dotted grey;
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+
+.navbar-nav .nav-item:last-child{
+    border-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    text-align: center;
+}
+
+
