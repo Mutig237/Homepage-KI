@@ -13,13 +13,16 @@
     border-top-right-radius: 20%;
 }
 
-.navbar-nav .nav-item:last-child{
-    border-right: 0;
-}
+    .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        text-align: center;
+        color: #00305e;
+    }
 
-.navbar-nav .nav-item .nav-link {
-    font-size: 16px;
-    text-align: center;
+#navbar_button
+{
+    height:25px;
+    width:25px;
 }
 
 
