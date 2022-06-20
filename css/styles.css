@@ -3,7 +3,14 @@
 
 }
 
-.nav-link {
+#div_Logo {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.menu-item {
     font-size: 16px;
     color: #00305e;
     font-weight: bold;
@@ -15,8 +22,11 @@
     border-right: 1px solid black;
 }
 
-#block{
-    height:100px;
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
 }
 
 #navbar_button
