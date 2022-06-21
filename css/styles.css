@@ -3,6 +3,11 @@
 
 }
 
+#div_social_media {
+    height: 50px;
+    background-color: #495057;
+}
+
 #div_Logo {
     margin-left: 20%;
     margin-right: 20%;
@@ -10,16 +15,14 @@
     margin-bottom: 5px;
 }
 
-.menu-item {
-    font-size: 16px;
-    color: #00305e;
-    font-weight: bold;
-    text-align:center;
-    cursor:pointer;
-}
+
 
 .borderRight {
     border-right: 1px solid black;
+}
+
+.borderRight_logo {
+    border-right: 1px solid grey;
 }
 
 .nav-item {
@@ -27,6 +30,14 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 5px;
+}
+
+.menu-item {
+    font-size: 16px;
+    color: #00305e;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
 }
 
 #navbar_button
