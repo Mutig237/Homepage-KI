@@ -1,6 +1,5 @@
 ﻿body {
     font-family: Verdana;
-
 }
 
 #div_social_media {
@@ -14,8 +13,6 @@
     margin-top: 5px;
     margin-bottom: 5px;
 }
-
-
 
 .borderRight {
     border-right: 1px solid black;
@@ -48,7 +45,7 @@
 
 @media (min-width: 992px) {
     p {
-        font-size: 29.52px;
+        font-size: 29.98px;
     }
 }
 
