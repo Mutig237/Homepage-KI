@@ -3,30 +3,70 @@
 }
 
 
-
-@media (min-width: 992px) {
+@media (min-width: 1200px){
     p {
-        font-size: 18.2px;
+        font-size: 27.3px;
     }
 
-    #div_social_media {
+    #div_row_one {
         height: 50px;
         background-color: #4f5759;
     }
 
-    #div_Logo {
+    #div_social_media {
+        width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    #span_facebook {
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    #span_xing {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .borderRight_logo {
+        border-right: 1px solid #808080;
+    }
+
+    #div_row_two {
         margin-left: 20%;
         margin-right: 20%;
         margin-top: 33px;
         margin-bottom: 33px;
     }
 
+    #span_row_two {
+        color: #00305e;
+        font-size: 25px;
+        display: flex;
+        justify-content: end;
+    }
+
+    #img_row_two {
+        
+    }
+
+    #div_slogan {
+        width: 60%;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+
     .borderRight {
         border-right: 1px solid black;
     }
 
-    .borderRight_logo {
-        border-right: 1px solid #808080;
+    #div_row_four {
+        background-color: #00305e;
     }
 
     .menu_row {
@@ -50,10 +90,95 @@
         text-align: center;
         cursor: pointer;
     }
+}
 
-    #navbar_button {
-        height: 25px;
-        width: 25px;
+@media (min-width: 992px) and (max-width: 1199px) {
+    p {
+        font-size: 19.4px;
+    }
+
+    #div_row_one {
+        height: 50px;
+        background-color: #4f5759;
+    }
+
+    #div_social_media {
+        width: 60%; 
+        margin-top:auto; 
+        margin-bottom:auto; 
+        display:flex; 
+        justify-content:end; 
+        align-items:end;
+    }
+
+    #span_facebook {
+        margin-right: 10px; 
+        padding-right:10px;
+    }
+
+    #span_xing {
+        margin-right:10px; 
+        margin-left:10px; 
+        padding-right:10px;
+    }
+
+    .borderRight_logo {
+        border-right: 1px solid #808080;
+    }
+
+    #div_row_two {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 33px;
+        margin-bottom: 33px;
+
+    }
+
+    #span_row_two {
+        color: #00305e;
+        font-size: 25px;
+        display: flex;
+        justify-content: end;
+    }
+
+    #img_row_two {
+       
+    }
+
+    #div_slogan {
+        width:60%; 
+        margin-bottom:24px; 
+        margin-top:24px;
+    }
+
+    .borderRight {
+        border-right: 1px solid black;
+    }
+
+    #div_row_four {
+        background-color: #00305e;
+    }
+
+    .menu_row {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-item {
+        font-size: 16px;
+        color: #00305e;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
     }
 }
 
@@ -61,6 +186,97 @@
     p {
         font-size: 14px;
     }
+
+    #div_row_one {
+        height: 50px;
+        background-color: #4f5759;
+    }
+
+    #div_social_media {
+        width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    #span_facebook {
+        margin-right: 10px;
+        padding-right: 10px;
+    }
+
+    #span_xing {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .borderRight_logo {
+        border-right: 1px solid #808080;
+    }
+
+    #div_row_two {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+
+    #img_row_two {
+        width: 199.5px;
+        height: 70px;
+    }
+
+    #span_row_two {
+        font-size: 15px;
+        color: #00305e;
+        display: flex;
+        justify-content: end;
+    }
+
+    #div_slogan {
+        width: 60%;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+
+    .borderRight {
+        border-right: 1px solid black;
+    }
+
+    #div_row_four {
+        background-color: #00305e;
+    }
+
+    .menu_row {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-item {
+        font-size: 7px;
+        color: #00305e;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+@media (max-media:575px){
+    #navbar_button {
+        height: 25px;
+        width: 25px;
+    }
+}
 }
 
 
