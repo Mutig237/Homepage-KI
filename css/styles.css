@@ -51,9 +51,17 @@
         display: flex;
         justify-content: end;
     }
+    
+    #div_Dlc_Logo{
+        padding-left:inherit;
+    }
 
     #img_row_two {
         
+    }
+
+    #div_title_Logo {
+        padding-right: inherit;
     }
 
     #div_slogan {
@@ -143,8 +151,16 @@
         justify-content: end;
     }
 
+    #div_Dlc_Logo {
+        padding-left: inherit;
+    }
+
     #img_row_two {
        
+    }
+
+    #div_title_Logo {
+        padding-right: inherit;
     }
 
     #div_slogan {
@@ -226,9 +242,17 @@
         margin-bottom: 33px;
     }
 
+    #div_Dlc_Logo {
+        padding-left: inherit;
+    }
+
     #img_row_two {
         width: 199.5px;
         height: 70px;
+    }
+
+    #div_title_Logo{
+        padding-right:inherit;
     }
 
     #span_row_two {
