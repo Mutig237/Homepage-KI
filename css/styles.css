@@ -2,10 +2,13 @@
     font-family: Verdana;
 }
 
+#header_image {
+    width: 100%;
+}
 
 @media (min-width: 1200px){
     p {
-        font-size: 27.3px;
+        font-size: 1.9vw;
     }
 
     #div_row_one {
@@ -93,7 +96,7 @@
     }
 
     .menu-item {
-        font-size: 16px;
+        font-size: 1vw;
         color: #00305e;
         font-weight: bold;
         text-align: center;
@@ -103,7 +106,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     p {
-        font-size: 19.4px;
+        font-size: 1.9vw;
     }
 
     #div_row_one {
@@ -192,7 +195,7 @@
     }
 
     .menu-item {
-        font-size: 16px;
+        font-size: 1vw;
         color: #00305e;
         font-weight: bold;
         text-align: center;
@@ -202,7 +205,7 @@
 
 @media (min-width: 576px) and (max-width: 991px) {
     p {
-        font-size: 14px;
+        font-size: 1.9vw;
     }
 
     #div_row_one {
@@ -291,7 +294,7 @@
     }
 
     .menu-item {
-        font-size: 7px;
+        font-size: 1vw;
         color: #00305e;
         font-weight: bold;
         text-align: center;
