@@ -8,7 +8,7 @@
 
 @media (min-width: 1200px){
     p {
-        font-size: 1.9vw;
+        font-size: 1.89vw;
     }
 
     #div_row_one {
@@ -49,7 +49,7 @@
 
     #span_row_two {
         color: #00305e;
-        font-size: 25px;
+        font-size: 1.89vw;
         display: flex;
         justify-content: end;
     }
@@ -95,7 +95,7 @@
     }
 
     .menu-item {
-        font-size: 1vw;
+        font-size: 1.1vw;
         color: #00305e;
         font-weight: bold;
         text-align: center;
@@ -105,7 +105,7 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
     p {
-        font-size: 1.9vw;
+        font-size: 1.89vw;
     }
 
     #div_row_one {
@@ -147,7 +147,7 @@
 
     #span_row_two {
         color: #00305e;
-        font-size: 25px;
+        font-size: 1.89vw;
         display: flex;
         justify-content: end;
     }
@@ -193,7 +193,7 @@
     }
 
     .menu-item {
-        font-size: 1vw;
+        font-size: 1.1vw;
         color: #00305e;
         font-weight: bold;
         text-align: center;
@@ -203,7 +203,7 @@
 
 @media (min-width: 576px) and (max-width: 991px) {
     p {
-        font-size: 1.9vw;
+        font-size: 1.89vw;
     }
 
     #div_row_one {
@@ -256,7 +256,7 @@
     }
 
     #span_row_two {
-        font-size: 15px;
+        font-size: 1.89vw;
         color: #00305e;
         display: flex;
         justify-content: end;
@@ -291,7 +291,7 @@
     }
 
     .menu-item {
-        font-size: 1vw;
+        font-size: 1.1vw;
         color: #00305e;
         font-weight: bold;
         text-align: center;
