@@ -6,6 +6,10 @@
     width: 100%;
 }
 
+#div-20 {
+    width: 20%;
+}
+
 @media (min-width: 1200px){
     p {
         font-size: 1.89vw;
