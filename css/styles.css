@@ -1,25 +1,313 @@
-﻿body
-{
+﻿body {
     font-family: Verdana;
 }
 
-.navbar-nav
-{
-    border-bottom: 1px solid black;
-}
-.navbar-nav .nav-item {
-    border-right: 1px dotted grey;
-    border-bottom-right-radius: 20%;
-    border-top-right-radius: 20%;
+#header_image {
+    width: 100%;
 }
 
-.navbar-nav .nav-item:last-child{
-    border-right: 0;
+#div-20 {
+    width: 20%;
 }
 
-.navbar-nav .nav-item .nav-link {
-    font-size: 16px;
-    text-align: center;
+@media (min-width: 1200px){
+    p {
+        font-size: 1.89vw;
+    }
+
+    #div_row_one {
+        height: 50px;
+        background-color: #4f5759;
+    }
+
+    #div_social_media {
+        width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    #span_facebook {
+        padding-right: 10px;  
+    }
+
+    #span_xing {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .borderRight_social_media {
+        border-right: 1px solid #808080;
+        display: flex;
+    }
+
+    #div_row_two {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+
+    #span_row_two {
+        color: #00305e;
+        font-size: 1.89vw;
+        display: flex;
+        justify-content: end;
+    }
+    
+    #div_Dlc_Logo{
+        padding-left:inherit;
+    }
+
+    #img_row_two {
+        
+    }
+
+    #div_title_Logo {
+        padding-right: inherit;
+    }
+
+    #div_slogan {
+        width: 60%;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+
+    .borderRight {
+        border-right: 1px solid black;
+    }
+
+    #div_row_four {
+        background-color: #00305e;
+    }
+
+    .menu_row {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-item {
+        font-size: 1.1vw;
+        color: #00305e;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    p {
+        font-size: 1.89vw;
+    }
+
+    #div_row_one {
+        height: 50px;
+        background-color: #4f5759;
+    }
+
+    #div_social_media {
+        width: 60%; 
+        margin-top:auto; 
+        margin-bottom:auto; 
+        display:flex; 
+        justify-content:end; 
+        align-items:end;
+    }
+
+    #span_facebook {
+        padding-right:10px;
+    }
+
+    #span_xing {
+        margin-right:10px; 
+        margin-left:10px; 
+        padding-right:10px;
+    }
+
+    .borderRight_social_media {
+        border-right: 1px solid #808080;
+        display: flex;
+    }
+
+    #div_row_two {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 33px;
+        margin-bottom: 33px;
+
+    }
+
+    #span_row_two {
+        color: #00305e;
+        font-size: 1.89vw;
+        display: flex;
+        justify-content: end;
+    }
+
+    #div_Dlc_Logo {
+        padding-left: inherit;
+    }
+
+    #img_row_two {
+       
+    }
+
+    #div_title_Logo {
+        padding-right: inherit;
+    }
+
+    #div_slogan {
+        width:60%; 
+        margin-bottom:24px; 
+        margin-top:24px;
+    }
+
+    .borderRight {
+        border-right: 1px solid black;
+    }
+
+    #div_row_four {
+        background-color: #00305e;
+    }
+
+    .menu_row {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-item {
+        font-size: 1.1vw;
+        color: #00305e;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    p {
+        font-size: 1.89vw;
+    }
+
+    #div_row_one {
+        height: 50px;
+        background-color: #4f5759;
+    }
+
+    #div_social_media {
+        width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    #span_facebook {
+        padding-right: 10px;
+    }
+
+    #span_xing {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .borderRight_social_media {
+        border-right: 1px solid #808080;
+        display: flex;
+    }
+
+    #div_row_two {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+
+    #div_Dlc_Logo {
+        padding-left: inherit;
+    }
+
+    #img_row_two {
+        width: 199.5px;
+        height: 70px;
+    }
+
+    #div_title_Logo{
+        padding-right:inherit;
+    }
+
+    #span_row_two {
+        font-size: 1.89vw;
+        color: #00305e;
+        display: flex;
+        justify-content: end;
+    }
+
+    #div_slogan {
+        width: 60%;
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
+
+    .borderRight {
+        border-right: 1px solid black;
+    }
+
+    #div_row_four {
+        background-color: #00305e;
+    }
+
+    .menu_row {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-item {
+        font-size: 1.1vw;
+        color: #00305e;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+@media (max-media:575px){
+    #navbar_button {
+        height: 25px;
+        width: 25px;
+    }
+}
 }
 
 
