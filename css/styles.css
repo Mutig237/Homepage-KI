@@ -302,12 +302,110 @@
         cursor: pointer;
     }
 }
-@media (max-media:575px){
+@media (min-width: 0px) and (max-width: 575px) {
+    p {
+        font-size: 1.89vw;
+    }
+
+    #div_row_one {
+        height: 50px;
+        background-color: #4f5759;
+    }
+
+    #div_social_media {
+        width: 60%;
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+    }
+
+    #span_facebook {
+        padding-right: 10px;
+    }
+
+    #span_xing {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+
+    .borderRight_social_media {
+        border-right: 1px solid #808080;
+        display: flex;
+    }
+
+    #div_row_two {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 33px;
+        margin-bottom: 33px;
+    }
+
+    #div_Dlc_Logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #img_row_two {
+        width: 199.5px;
+        height: 70px;
+    }
+
+    #div_title_Logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #span_row_two {
+        font-size: 1.89vw;
+        color: #00305e;
+        display: flex;
+        justify-content: start;
+    }
+
+    #div_slogan {
+        width: 60%;
+    }
+
+    .borderRight {
+        border-right: 1px solid black;
+    }
+
+    #div_row_four {
+        background-color: #00305e;
+    }
+
+    .menu_row {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 18px;
+        padding-bottom: 18px;
+        border-bottom: 1px solid;
+    }
+
+    .nav-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .menu-item {
+        font-size: 1.1vw;
+        color: #00305e;
+        font-weight: bold;
+        text-align: center;
+        cursor: pointer;
+    }
+
     #navbar_button {
-        height: 25px;
-        width: 25px;
+        height: 5px;
+        width: 5px;
     }
 }
-}
+
 
 
