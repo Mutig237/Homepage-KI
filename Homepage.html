@@ -17,39 +17,54 @@
     <header>
         <!--header as a container with five rows-->
         <div class="container-fluid">
-            <div class="row" id="div_row_one">
+            <div class="row nomobile" id="div_row_one">
                 <!--row 1-->
                 <div class="col-md-2" id="div-20"></div>
                 <div class="col-lg-12 col-md-8" id="div_social_media">
-                        <a href="#" class="borderRight_social_media" id="span_facebook">
-                            <img src="./images/facebook-logo.png" alt="facebook logo" />
-                        </a>
-                        <a href="#" class="borderRight_social_media"  id="span_xing">
-                            <img src="./images/xing.png" alt="xing logo" />
-                        </a>
-                        <a href="#" >
-                            <img src="./images/linkedin-logo.png" alt="linkedin logo" />
-                        </a>
+                    <a href="#" class="borderRight_social_media" id="span_facebook">
+                        <img src="./images/facebook-logo.png" alt="facebook logo" />
+                    </a>
+                    <a href="#" class="borderRight_social_media" id="span_xing">
+                        <img src="./images/xing.png" alt="xing logo" />
+                    </a>
+                    <a href="#">
+                        <img src="./images/linkedin-logo.png" alt="linkedin logo" />
+                    </a>
                 </div>
-                <div class="col-md-2" id="div-20"></div>
+                <div class="col-md-2" id="div-20">
+
+                </div>
             </div>
-            <div class="row " id="div_row_two">
+            <div class="row nomobile" id="div_row_two">
                 <!--row 2-->
-                
+
                 <div class="col-lg-6 col-md-6" id="div_Dlc_Logo">
-                        <img src="./images/Dlc-Logo.png" alt="logo AI" id="img_row_two">
-                        
+                    <img class="nomobile" src="./images/Dlc-Logo.png" alt="logo desktopversion" id="img_row_two">
                 </div>
+
                 <div class="col-lg-6 col-md-6 text-lg-end text-md-end align-self-end text-nowrap" id="div_title_Logo">
                     <span id="span_row_two">Die Art der Innovation</span>
                 </div>
-               
+            </div>
+            <div class="row mobile" id="div_row_two">
+                <!--row 2 mobile-->
+
+                <div class="mobile col-8 p-0">
+                    <img class="mobile" src="./images/Dlc-logo-mobileVersion.png" alt="logo mobileversion">
+                </div>
+
+                <div class="mobile col-4 p-0" id="div-navbar-button">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="./images/navbar_button.png" id="navbar_button" alt="menu navigation button">
+                    </button>
+                </div>
+
             </div>
             <div class="row">
                 <!--row 3-->
-                <div class="col-lg-12 col-md-12 px-0">
-                    <img src="./images/keyvisual_startseite.jpg"  alt="header image" id="header_image">
-
+                <div class="col-lg-12 col-md-12 px-0 ">
+                    <img class="nomobile" src="./images/keyvisual_startseite.jpg" alt="header image" id="header_image">
+                    <img class="mobile" src="./images/mobile_header.jpeg" alt="header image" id="header_image">
                 </div>
             </div>
 
@@ -58,21 +73,14 @@
                 <div class="col-md-2" id="div-20">
 
                 </div>
-                <div class="col-lg-12 col-md-8 p-0" id="div_slogan" >
+                <div class="col-lg-12 col-md-8 p-0" id="div_slogan">
                     <p class="fw-bold text-white mt-2 text-nowrap"> Künstliche Intelligenz, Data Science & Machine Learning </p>
                 </div>
                 <div class="col-md-2" id="div-20">
-                    <nav class="navbar navbar-expand-xxl navbar-expand-lg navbar-expand-md navbar-light">
-                        <div >
-                            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                <img src="./images/navbar_button.png" id="navbar_button" alt="menu navigation button">
-                            </button>
 
-                        </div>
-                    </nav>
                 </div>
             </div>
-            <div class="row menu_row" >
+            <div class="row menu_row nomobile">
                 <!--row 5-->
                 <div class="col p-0 nav-item">
                     <span class=" menu-item borderRight" onclick="location='#'">
@@ -94,7 +102,7 @@
                         Projekte & Referenzen
                     </span>
                 </div>
-               
+
             </div>
         </div>
     </header>
