@@ -336,7 +336,8 @@
     }
     
     p {
-        font-size: 1.89vw;
+        font-size: 6vw;
+        text-align:center;
     }
 
     #div_row_one {
@@ -399,7 +400,7 @@
     }
 
     #div_slogan {
-        width: 60%;
+        
     }
 
     .borderRight {
@@ -408,6 +409,8 @@
 
     #div_row_four {
         background-color: #00305e;
+        display: flex;
+        justify-content: center;
     }
 
     .menu_row {
@@ -441,8 +444,15 @@
         justify-content: flex-end;
     }
 
-    .button_tune {
-        
+    #button_tune {
+        color: #00305e;
+        border: none;
+    }
+
+    .svg_button {
+        width: 5rem;
+        height: 5rem;
+        display: block;
     }
 }
 
