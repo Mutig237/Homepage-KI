@@ -79,23 +79,17 @@
     }
     
     #div_Dlc_Logo{
-        padding-left:inherit;
+        padding: inherit;
         width: 50%;
     }
 
     #img_row_two {
-        
+        width: 95%;
     }
 
     #div_title_Logo {
         padding-right: inherit;
         width: 50%;
-    }
-
-    #div_slogan {
-        width: 60%;
-        margin-bottom: 24px;
-        margin-top: 24px;
     }
 
     .borderRight {
@@ -104,6 +98,22 @@
 
     #div_row_four {
         background-color: #00305e;
+    }
+
+    #slogan-div-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slogan-menu-container {
+        margin: 0 20% 0 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #div_slogan {
+        margin-bottom: 24px;
+        margin-top: 24px;
     }
 
     .menu_row {
@@ -198,23 +208,17 @@
     }
 
     #div_Dlc_Logo {
-        padding-left: inherit;
+        padding: inherit;
         width: 50%;
     }
 
     #img_row_two {
-       
+       width: 95%;
     }
 
     #div_title_Logo {
         padding-right: inherit;
         width: 50%;
-    }
-
-    #div_slogan {
-        width:60%; 
-        margin-bottom:24px; 
-        margin-top:24px;
     }
 
     .borderRight {
@@ -225,6 +229,21 @@
         background-color: #00305e;
     }
 
+    #slogan-div-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slogan-menu-container {
+        margin: 0 20% 0 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #div_slogan {
+        margin-bottom: 24px;
+        margin-top: 24px;
+    }
     .menu_row {
         margin-left: 20%;
         margin-right: 20%;
@@ -309,12 +328,12 @@
     }
 
     #div_Dlc_Logo {
-        padding-left: inherit;
+        padding: inherit;
         width: 50%;
     }
 
     #img_row_two {
-        width: 199.5px;
+        width: 95%;
         height: 70px;
     }
 
@@ -330,18 +349,28 @@
         justify-content: end;
     }
 
-    #div_slogan {
-        width: 60%;
-        margin-bottom: 24px;
-        margin-top: 24px;
-    }
-
     .borderRight {
         border-right: 1px solid black;
     }
 
     #div_row_four {
         background-color: #00305e;
+    }
+
+    #slogan-div-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slogan-menu-container {
+        margin: 0 20% 0 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #div_slogan {
+        margin-bottom: 24px;
+        margin-top: 24px;
     }
 
     .menu_row {
@@ -427,7 +456,7 @@
     }
 
     #img_row_two {
-        width: 199.5px;
+        width: 95%;
         height: 70px;
     }
 
