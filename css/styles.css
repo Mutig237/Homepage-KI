@@ -473,18 +473,25 @@
         justify-content: start;
     }
 
-    #div_slogan {
-        
-    }
-
-    .borderRight {
-        border-right: 1px solid black;
-    }
-
     #div_row_four {
         background-color: #00305e;
+    }
+
+    #slogan-div-container {
         display: flex;
         justify-content: center;
+    }
+
+    .slogan-menu-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #div_slogan {
+       
+    }
+    .borderRight {
+        border-right: 1px solid black;
     }
 
     .menu_row {
